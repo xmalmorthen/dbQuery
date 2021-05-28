@@ -1,0 +1,33 @@
+﻿table.dataTable > tbody > tr.child ul.dtr-details > li {
+	padding: 0 !important;
+}
+
+.dtr-title::after {
+	content: " :" !important;
+}
+
+table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td:first-child:before, table.dataTable.dtr-inline.collapsed > tbody > tr.parent > th:first-child:before {
+	content: '\f077'!important;	
+}
+
+
+table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th:first-child:before {
+	top: .5rem;
+	left: .2rem;
+	height: 1rem;
+	width: 1rem;
+	display: block;
+	position: absolute;
+	color: black;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	box-sizing: content-box;
+	text-align: center;
+	text-indent: 0 !important;
+	font-family: FontAwesome;
+	line-height: .8rem;
+	content: '\f078';
+	background-color: transparent;
+	cursor:pointer;
+}

@@ -1,0 +1,17 @@
+;<?php die("[ ACCESO DENEGADO ]"); ?>
+;Autor: Miguel Angel Rueda Aguilar
+;Fecha Creación: 30-01-2020
+;Descripción: Archivo de configuraciones del sistema
+
+[general] ;Sección general
+proyect_name = "dbSystem/dist/dbSystem" ;En caso de root se deja en blanco
+version = "beta v0.0.51"
+title = "Querys"
+environment = production ;Se define en development o production
+[databaseDefault] ;Configuración de base de datos
+dbdriver = "mysqli" ;mysqli / mssql / sqlsrv
+hostname = "localhost"
+username = "root"
+password = ""
+database = "dbsystem"
+port     = 3307

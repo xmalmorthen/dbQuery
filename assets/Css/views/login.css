@@ -1,0 +1,11 @@
+.sidenav {
+    max-width: 35%;
+    background-color: #000;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 576px) {
+    .sidenav {
+        max-width: 100%;
+    }
+}

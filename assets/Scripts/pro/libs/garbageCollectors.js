@@ -1,0 +1,1 @@
+storageGarbageCollector=(()=>{window.localStorage.removeItem(Object.keys(window.localStorage).find(function(e){return-1!=e.search("guid_")}))});

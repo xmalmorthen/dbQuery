@@ -1,0 +1,1 @@
+checkRole=(e=>e.filter(e=>e in user.rol).length>0);

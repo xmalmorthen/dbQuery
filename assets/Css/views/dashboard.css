@@ -1,0 +1,30 @@
+.btn.btn-link{    
+    font-size: 2rem;
+}
+
+span.round-tab {
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    display: inline-block;
+    border-radius: 100px;
+    /*background: #fff;*/
+    border: 2px solid #e0e0e0;
+    z-index: 2;
+    /*position: absolute;*/
+    left: 0;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.info .border-bottom {
+    border-bottom: 2px solid #dee2e6!important;
+}
+
+.select2-results__group{
+    background-color: rgba(223, 223, 223, 0.46);
+}
+
+.select2-container .select2-selection--multiple .select2-selection__rendered {
+    white-space: normal;
+}

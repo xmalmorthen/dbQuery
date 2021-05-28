@@ -1,0 +1,1 @@
+const $ajaxResponse={check:function(n){return!!n&&1==n.status}};

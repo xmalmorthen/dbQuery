@@ -1,0 +1,14 @@
+.sliderRange {
+    margin-left: .6em;
+    margin-right: 1.8em;
+    height: 1.8em;
+}
+
+.sliderRange .ui-slider-handle {
+    text-align: center!important;
+    padding-top: .5rem;
+    width: 2.5em!important;
+    height: 2.45em!important;
+    top: -.4em!important;
+    font-weight: bolder!important;
+}
